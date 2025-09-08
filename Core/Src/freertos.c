@@ -151,7 +151,7 @@ void StartDefaultTask(void *argument)
 	  BSP_W25Qx_Read(rx_data, 0x123456, 10);
 	  BSP_W25Qx_Erase_Block(0x123456);
 	  BSP_W25Qx_Read(rx_data, 0x123456, 10);
-	  LL_mDelay(1);
+	  LL_mDelay(2000);
   }
   /* USER CODE END StartDefaultTask */
 }
